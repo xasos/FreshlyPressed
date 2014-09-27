@@ -12,7 +12,7 @@ $ ionic build ios
 
 # Emulate Locally
 $ ionic serve
+```
 
 ## License
-
 [MIT License](LICENSE)
