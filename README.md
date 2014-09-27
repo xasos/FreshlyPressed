@@ -1,7 +1,7 @@
 FreshlyPressed
 ==============
 
-Angular/Cordova application to show you what's hot on WordPress.
+Angular/Ionic application to show you what's hot on WordPress.
 
 **NOTICE**: Not complete, under active development.
 
