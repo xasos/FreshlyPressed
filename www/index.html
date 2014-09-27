@@ -21,15 +21,17 @@
 		</div>
 		<ion-content>
 			<h1>Content</h1>
-			<div class="card list">
+			<div class="card list" ng-repeat="p in posts">
 				<div class="item item-avatar-left">
-					<img src="img/ionic.png">
-					<h2>Fred</h2>
-					<p>Some text</p>
+					<img ng-src="{{ p.author.avatar_URL }}">
+					<h2>{{ p.author.nice_name }}</h2>
+					<p><a href="{{ p.author.URL }}">{{ p.author.URL }}</a></p>
 				</div>
 				<div class="item item-body">
-					<h1>BlogTitle</h1>
-					<p>watwat</p>
+					<h1>{{ p.title }}</h1>
+					<div ng-bind-html="p.content">
+						<p>{{ p.content }}</p>
+					</div>
 				</div>
 			</div>
 		</ion-content>
