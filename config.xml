@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.freshlypressed999670" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.nirajpant.FreshlyPressed" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>FreshlyPressed</name>
   <description>
-        An Ionic Framework and Cordova project.
+        An app to show you what's hot on WordPress.
     </description>
-  <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+  <author email="nirajpant7@gmail.com" href="http://github.com/xasos">
+      Niraj Pant
     </author>
   <content src="index.html"/>
   <access origin="*"/>
