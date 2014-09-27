@@ -6,3 +6,8 @@
 	border-top-left-radius: 10px !important;
 	border-top-right-radius: 10px !important;
 }
+
+.item.item-body img {
+	max-width: 100% !important;
+	max-height: 100% !important;
+}

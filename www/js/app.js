@@ -11,6 +11,7 @@ angular.module("FreshlyPressed", ["ionic"])
 		$http.jsonp("https://public-api.wordpress.com/rest/v1/freshly-pressed?callback=JSON_CALLBACK")
 			.success(function(result) {
 				$scope.posts = result.posts;
+				$scope.$broadcast("scroll.refreshComplete");
 				$log.info(JSON.stringify(result.posts));
 			});
 	};

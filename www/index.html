@@ -20,7 +20,13 @@
 		  	</button>
 		</div>
 		<ion-content>
-			<h1>Content</h1>
+			<ion-refresher on-refresh="refresh()"></ion-refresher>
+			<div ng-show="!posts.length">
+				<br><br>
+				<center>
+					<h1>Pull to Refresh</h1>
+				</center>
+			</div>
 			<div class="card list" ng-repeat="p in posts">
 				<div class="item item-avatar-left">
 					<img ng-src="{{ p.author.avatar_URL }}">
